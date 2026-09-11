@@ -1,0 +1,279 @@
+(footprint "US2H"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "CUHS20S60,H3F-5")
+	(tags "Schottky Diode")
+	(property "Reference" "D1"
+		(at 0.41 1.39 180)
+		(layer "F.SilkS")
+		(uuid "7bc87140-526f-4fe3-8eb4-648395226c23")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "CUHS20S60,H3F"
+		(at 0 0 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "61a3034a-ae89-46df-b06d-11a5a936cf72")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.digikey.ph/en/products/detail/toshiba-semiconductor-and-storage/CUHS20S60-H3F/16678289"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ef6ff06e-d8c0-4d65-b3b8-d27e9b9ba03c")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "Diode 60 V 2A Surface Mount US2H"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a92fffa7-f30f-4ba0-b00b-c62dce4b9a5d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Height" "0.68"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "16366603-e1b8-48e6-af6f-5ea9b897670b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "757-CUHS20S60H3F"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ccfde609-b9d2-48a6-ae0c-6c8539c4502c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Toshiba/CUHS20S60H3F?qs=iLbezkQI%252BsiwNq0L%252Bi5Axg%3D%3D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1fb09fc5-b554-45fb-942c-1f738e183cae")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "Toshiba"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "62fd3671-a8b5-4e64-97a6-4f99937e67c3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "CUHS20S60,H3F"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5ce571f1-33f9-4987-b0de-2e7bedac2b56")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetname "/")
+	(sheetfile "I2C_OPT.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -2.3 0)
+		(end -2.3 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1df9cdc9-6ec0-48c0-ae7d-f7e724067e18")
+	)
+	(fp_line
+		(start -2.2 0)
+		(end -2.2 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "71a60287-d672-4693-b898-37bfe4ab3b65")
+	)
+	(fp_arc
+		(start -2.3 0)
+		(mid -2.25 -0.05)
+		(end -2.2 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "67a0c3b4-f1ca-4581-9192-2a5bd66e7bc1")
+	)
+	(fp_arc
+		(start -2.2 0)
+		(mid -2.25 0.05)
+		(end -2.3 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "22d4faff-64cf-4212-ade8-ea60db8f33db")
+	)
+	(fp_line
+		(start -2 -1)
+		(end 2 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1fa8266e-d098-4fa9-ad38-0fdaf4895f5c")
+	)
+	(fp_line
+		(start -2 1)
+		(end -2 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "46946e51-0e54-4525-ad6d-acb16bb83d5e")
+	)
+	(fp_line
+		(start 2 -1)
+		(end 2 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "41719e7f-9b3b-4add-9f43-dc0818b1393a")
+	)
+	(fp_line
+		(start 2 1)
+		(end -2 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d74c9617-be5f-4674-a10c-e7b9f961c9bc")
+	)
+	(fp_line
+		(start -1 -0.7)
+		(end 1 -0.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3815e1fd-046c-4d44-b9ab-93471e274b3d")
+	)
+	(fp_line
+		(start -1 0.7)
+		(end -1 -0.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "54797960-1289-496e-8a62-e9d7310970c7")
+	)
+	(fp_line
+		(start 1 -0.7)
+		(end 1 0.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2920e393-94c8-4f86-b045-85f9e19bc342")
+	)
+	(fp_line
+		(start 1 0.7)
+		(end -1 0.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "272b2737-6b7c-4e83-82f9-3f7fd8ffcb60")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -2.275 180)
+		(layer "F.Fab")
+		(uuid "cd7cb7c2-e175-4d4c-9eff-7b0b701ec0f2")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.65 0 90)
+		(size 1.1 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "cc3626ae-bb6a-49f8-9234-7b8adc5dcd32")
+	)
+	(pad "2" smd rect
+		(at 1.25 0)
+		(size 0.8 1.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5f49dfa0-b0b8-4ee9-acc1-544ea7c50bf0")
+	)
+	(embedded_fonts no)
+	(model "${OPT_ECAD}/CUHS20S60,H3F/CUHS20S60,H3F.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

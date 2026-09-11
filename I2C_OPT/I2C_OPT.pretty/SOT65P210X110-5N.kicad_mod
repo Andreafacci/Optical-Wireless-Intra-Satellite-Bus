@@ -1,0 +1,224 @@
+(footprint "SOT65P210X110-5N"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "DCK(R-PDSO-G5)")
+	(tags "Integrated Circuit")
+	(property "Reference" "REF**"
+		(at 0 -1.9 0)
+		(layer "F.SilkS")
+		(uuid "9e8e6274-1d80-4b71-8228-6c251ad4a531")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "SN74CBT1G125DCKR"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "0c3b414c-3e1a-466b-90b4-7d7080d6eba4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "http://www.ti.com/lit/gpn/sn74cbt1g125"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "667d4c69-22fb-40a3-a5d8-fc6a5abc8bc9")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "Single FET Bus Switch"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f35bda53-3f1c-4991-8154-6c7cba2d910a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Height" "1.45"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fe9fb4a7-07bc-434e-82d9-7987d63478c0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "595-SN74CBT1G125DBVR"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "925fd426-f326-40c3-9161-db0e6742d219")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "952ef2b7-aad7-46a8-b37e-a21bf6c89190")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "Texas Instruments"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1cc52ab1-4d3f-4cf9-a7e2-cf7c11b6e10f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "SN74CBT1G125DBVR"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e007fa15-0ddb-4861-a3db-5b4d59920d66")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetname "/RED_main/RED_RX/")
+	(sheetfile "RED_RX.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1.55 -1.1)
+		(end -0.35 -1.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "29d5740a-510b-489f-a05e-c61dc94ae118")
+	)
+	(fp_line
+		(start -1.8 -1.325)
+		(end 1.8 -1.325)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "83bc4110-0bf2-4904-86ac-220e9033d56e")
+	)
+	(fp_line
+		(start -1.8 1.325)
+		(end -1.8 -1.325)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "87054df3-f6c9-4ecb-889d-a48ee7d002db")
+	)
+	(fp_line
+		(start 1.8 -1.325)
+		(end 1.8 1.325)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "68a1304a-356e-4092-bf60-b2293a879f4d")
+	)
+	(fp_line
+		(start 1.8 1.325)
+		(end -1.8 1.325)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "600a98e2-1950-4546-b430-dc2d15adad95")
+	)
+	(pad "1" smd roundrect
+		(at -1.1 -0.65 90)
+		(size 0.4 0.95)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.125)
+		(thermal_bridge_angle 0)
+		(uuid "82db84fc-3e3f-433f-9093-f1e2247cca3e")
+	)
+	(pad "2" smd roundrect
+		(at -1.1 0 90)
+		(size 0.4 0.95)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.125)
+		(thermal_bridge_angle 0)
+		(uuid "628b59b9-44da-43ae-b342-451ce856e8c1")
+	)
+	(pad "3" smd roundrect
+		(at -1.1 0.65 90)
+		(size 0.4 0.95)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.125)
+		(thermal_bridge_angle 0)
+		(uuid "f72f5e3e-bd1b-4391-acb5-e78fd7e3c907")
+	)
+	(pad "4" smd roundrect
+		(at 1.1 0.65 90)
+		(size 0.4 0.95)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.125)
+		(thermal_bridge_angle 0)
+		(uuid "e898b202-70f8-40bd-92a8-80f14dad47c4")
+	)
+	(pad "5" smd roundrect
+		(at 1.1 -0.65 90)
+		(size 0.4 0.95)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.125)
+		(thermal_bridge_angle 0)
+		(uuid "5af6b48e-638a-4cd4-a2f5-bbc77c89c484")
+	)
+	(embedded_fonts no)
+	(model "${OPT_ECAD}/SN74CBT1G125DCKR/SN74CBT1G125DCKR.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1,0 +1,211 @@
+(footprint "DMP21D6UFD7"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "DMP21D6UFD-7")
+	(tags "MOSFET (P-Channel)")
+	(property "Reference" "REF**"
+		(at 1.55 1.6 270)
+		(layer "F.SilkS")
+		(uuid "20808e50-3e38-4c46-b281-5c99e0e735e1")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "DMP21D6UFD-7"
+		(at 0 0 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "5357844f-ed0a-42ee-a420-f2b405ffb27c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.diodes.com//assets/Datasheets/DMP21D6UFD.pdf"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "179c2cba-d9b4-4ecd-8216-32c7b1fa9fa9")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "DMP21D6UFD-7 P-Channel MOSFET, 500 (State) mA, 600 (Steady) mA, 20 V, 3-Pin X1-DFN1212 Diodes Inc"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "960b8e3f-438b-45ea-84a5-2f0cb8197cc1")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Height" "0.53"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "edb6cabf-798f-40b2-a4d3-b5dc95fe6b93")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "621-DMP21D6UFD-7"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b4679935-2032-49d9-9418-93b9a3a2c1e8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/DMP21D6UFD-7?qs=W0yvOO0ixfEXma0dOs9Qyw%3D%3D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ca9f91b3-72ba-4a49-bd05-8879b00756a0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "Diodes Incorporated"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "478f1b29-57a0-43bb-9759-c0867445cd48")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "DMP21D6UFD-7"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "912aa6e2-2af9-4fc7-9890-8ce2d7087852")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetname "/IR_main/IR_TX/")
+	(sheetfile "IR_TX.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -0.4 1.2)
+		(end -0.4 1.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fd919a59-f2cc-48bb-ab04-370748fa717c")
+	)
+	(fp_line
+		(start -0.4 1.3)
+		(end -0.4 1.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a1f360cc-b06e-4123-b5be-b6c501266741")
+	)
+	(fp_arc
+		(start -0.4 1.2)
+		(mid -0.35 1.25)
+		(end -0.4 1.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "10908b04-7caf-42c8-86d0-9d250f26fd0f")
+	)
+	(fp_arc
+		(start -0.4 1.3)
+		(mid -0.45 1.25)
+		(end -0.4 1.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bcef086e-85f2-4089-8a2c-27d5a60f5503")
+	)
+	(fp_rect
+		(start -1 -1)
+		(end 1 1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "d6a43e4c-9748-43e8-92f4-bde26fc82724")
+	)
+	(pad "1" smd rect
+		(at -0.4 0.5)
+		(size 0.32 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 0)
+		(thermal_gap 0.1)
+		(uuid "f1b95450-7baf-489a-95e5-a02c5004fb92")
+	)
+	(pad "2" smd rect
+		(at 0.4 0.5)
+		(size 0.32 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 0)
+		(thermal_gap 0.1)
+		(uuid "2b8e5bd9-5c9d-42a2-81c1-d70312b6acd1")
+	)
+	(pad "3" smd rect
+		(at 0 -0.5)
+		(size 0.42 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 0)
+		(thermal_gap 0.1)
+		(uuid "5917fd3e-5f66-4b76-951c-2594a33f31aa")
+	)
+	(embedded_fonts no)
+	(model "${OPT_ECAD}/DMP21D6UFD/DMP21D6UFD-7.iges"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
